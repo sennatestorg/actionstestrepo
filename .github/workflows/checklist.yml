@@ -1,0 +1,8 @@
+name: Issue Checklist Checker
+on: issues
+jobs:
+  build:
+    name: Check Checklist
+    runs-on: ubuntu-latest    
+    steps:
+    - uses: "adamzolyak/checklist-checker-action@master"
