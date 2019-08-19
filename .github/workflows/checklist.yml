@@ -5,6 +5,6 @@ jobs:
     name: Check Checklist
     runs-on: ubuntu-latest    
     steps:
-    - uses: "adamzolyak/checklist-checker-action@master" repo-token: ${{ secrets.GITHUB_TOKEN }}
+    - uses: "adamzolyak/checklist-checker-action@master"
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
